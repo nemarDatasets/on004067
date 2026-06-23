@@ -1,34 +1,98 @@
 {
   "version": "2.0",
-  "dataset_id": "on004067",
-  "source": "openneuro",
-  "source_id": "ds004067",
+  "pipeline_stage": "enriched",
   "title": "Moral conviction and metacognitive ability shape multiple stages of information processing",
-  "authors": {
-    "Yoder, Keith J": {},
-    "Decety, Jean": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Yoder, Keith J": {
+      "orcid": "0000-0002-9596-5408"
+    },
+    "Decety, Jean": {}
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds004067.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.17605/OSF.IO/8KPEF",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on004067",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004067",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.17605/OSF.IO/32DAS",
+      "identifier_type": "DOI",
+      "relation_type": "HasPart"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.0.2",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
       "funder_name": "Seed grant from Grossman Center for Quantitative Biology and Human Behavior (JD)"
+    },
+    {
+      "funder_name": "Grossman Center for Quantitative Biology and Human Behavior",
+      "award_title": "Seed grant"
     }
   ],
-  "acknowledgements": "The authors acknowledge the University of Chicago Grossman Ceneter for Qualitative Biology and Human Behavior."
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".json",
+    ".md",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises human electroencephalography (EEG) recordings from 80 participants engaged in a social decision-making task. Participants evaluated their attitudes toward sociopolitical issues, then viewed protest photographs with contextual information about social support levels, followed by explicit judgments of support for the protesters. The study investigates how moral conviction and metacognitive ability modulate neural processing during social and political judgment.",
+  "methods_description": "Human EEG recordings were collected from 80 participants. The experimental protocol involved participants first providing attitudes about sociopolitical issues, then viewing protest photographs preceded by pie charts indicating social support levels (low, medium, or high). Participants indicated their support for protesters following each photograph.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "moral conviction"
+    },
+    {
+      "term": "metacognition"
+    },
+    {
+      "term": "social decision-making"
+    },
+    {
+      "term": "political attitudes"
+    },
+    {
+      "term": "information processing"
+    },
+    {
+      "term": "protest"
+    },
+    {
+      "term": "social support"
+    },
+    {
+      "term": "social cognition"
+    },
+    {
+      "term": "neuroscience"
+    }
+  ],
+  "source_hash": "3d851f155b59a29c8b81ab12b423cbe4c32118878569ba83e614ba9664e49d93"
 }
