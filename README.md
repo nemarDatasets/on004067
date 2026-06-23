@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004067-blue)](https://doi.org/10.82901/nemar.on004067)
+
 Experiment Details
 
 Human electroencephalography recordings from 80 participants. Participants first provided their attitudes about a set of sociopolitical issues, then view photographs of protests that were ostensibly about those same issues. Prior to each photo, they saw a pie chart indicating social support for the issue (low, medium, or high). After each photo, they indicated their support for the protestors.
