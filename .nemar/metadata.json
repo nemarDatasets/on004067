@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "Moral conviction and metacognitive ability shape multiple stages of information processing",
+  "description": "This dataset comprises human electroencephalography (EEG) recordings from 80 participants engaged in a moral decision-making task. Participants evaluated their attitudes toward sociopolitical issues, then viewed protest photographs while receiving information about social support levels for each issue. The study investigates how moral conviction and metacognitive ability influence neural processing stages during social judgment and attitude formation.",
+  "methods_description": "EEG recordings were collected from 80 participants who completed an attitude assessment task followed by a visual judgment paradigm. Participants viewed protest photographs preceded by pie charts indicating varying levels of social support (low, medium, high) for sociopolitical issues, and subsequently rated their support for the protestors.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,12 +12,42 @@
     },
     "Decety, Jean": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds004067.v1.0.1",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "EEG"
     },
+    {
+      "term": "moral cognition"
+    },
+    {
+      "term": "metacognition"
+    },
+    {
+      "term": "social decision-making"
+    },
+    {
+      "term": "attitude formation"
+    },
+    {
+      "term": "information processing"
+    },
+    {
+      "term": "social support"
+    },
+    {
+      "term": "protest"
+    },
+    {
+      "term": "neuroscience"
+    },
+    {
+      "term": "sociopolitical attitudes"
+    },
+    {
+      "term": "political cognition"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.17605/OSF.IO/8KPEF",
       "identifier_type": "DOI",
@@ -35,6 +67,11 @@
       "identifier": "10.17605/OSF.IO/32DAS",
       "identifier_type": "DOI",
       "relation_type": "HasPart"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds004067.v1.0.1",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -46,53 +83,20 @@
       "award_title": "Seed grant"
     }
   ],
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "108.2 GB (254 files)"
   ],
   "formats": [
     ".eeg",
     ".json",
     ".md",
     ".vhdr",
-    ".vmrk"
+    ".vmrk",
+    ".yml"
   ],
-  "description": "This dataset comprises human electroencephalography (EEG) recordings from 80 participants engaged in a social decision-making task. Participants evaluated their attitudes toward sociopolitical issues, then viewed protest photographs with contextual information about social support levels, followed by explicit judgments of support for the protesters. The study investigates how moral conviction and metacognitive ability modulate neural processing during social and political judgment.",
-  "methods_description": "Human EEG recordings were collected from 80 participants. The experimental protocol involved participants first providing attitudes about sociopolitical issues, then viewing protest photographs preceded by pie charts indicating social support levels (low, medium, or high). Participants indicated their support for protesters following each photograph.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "moral conviction"
-    },
-    {
-      "term": "metacognition"
-    },
-    {
-      "term": "social decision-making"
-    },
-    {
-      "term": "political attitudes"
-    },
-    {
-      "term": "information processing"
-    },
-    {
-      "term": "protest"
-    },
-    {
-      "term": "social support"
-    },
-    {
-      "term": "social cognition"
-    },
-    {
-      "term": "neuroscience"
-    }
-  ],
-  "source_hash": "3d851f155b59a29c8b81ab12b423cbe4c32118878569ba83e614ba9664e49d93"
+  "source_hash": "d605a554208c1455c0e0c7c43bf9793c7e6be0c4ece0e752b953397ebb141801"
 }
