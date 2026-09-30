@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Moral conviction and metacognitive ability shape multiple stages of information processing",
-  "description": "This dataset comprises human electroencephalography (EEG) recordings from 80 participants engaged in a moral decision-making task. Participants evaluated their attitudes toward sociopolitical issues, then viewed protest photographs while receiving information about social support levels for each issue. The study investigates how moral conviction and metacognitive ability influence neural processing stages during social judgment and attitude formation.",
-  "methods_description": "EEG recordings were collected from 80 participants who completed an attitude assessment task followed by a visual judgment paradigm. Participants viewed protest photographs preceded by pie charts indicating varying levels of social support (low, medium, high) for sociopolitical issues, and subsequently rated their support for the protestors.",
+  "description": "Human electroencephalography (EEG) recordings from 80 participants who reported their attitudes on a set of sociopolitical issues and then viewed photographs of protests about those same issues. Each photo was preceded by a pie chart showing low, medium, or high social support for the issue. After each photo, participants rated their support for the protestors. The dataset supports investigation of how moral conviction and metacognitive ability shape multiple stages of information processing.",
+  "methods_description": "Participants first provided attitudes on sociopolitical issues, then viewed protest photographs during EEG recording. Each photo was preceded by a pie chart indicating social support for the issue (low, medium, or high), and participants rated their support for the protestors after each photo.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -17,34 +17,19 @@
       "term": "EEG"
     },
     {
-      "term": "moral cognition"
+      "term": "moral conviction"
     },
     {
       "term": "metacognition"
     },
     {
-      "term": "social decision-making"
-    },
-    {
-      "term": "attitude formation"
-    },
-    {
-      "term": "information processing"
-    },
-    {
       "term": "social support"
     },
     {
-      "term": "protest"
+      "term": "attitudes"
     },
     {
-      "term": "neuroscience"
-    },
-    {
-      "term": "sociopolitical attitudes"
-    },
-    {
-      "term": "political cognition"
+      "term": "information processing"
     }
   ],
   "related_identifiers": [
@@ -59,11 +44,6 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on004067",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.17605/OSF.IO/32DAS",
       "identifier_type": "DOI",
       "relation_type": "HasPart"
@@ -72,6 +52,11 @@
       "identifier": "10.18112/openneuro.ds004067.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on004067",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -88,7 +73,7 @@
     "eeg"
   ],
   "sizes": [
-    "108.2 GB (254 files)"
+    "101 GB (254 files)"
   ],
   "formats": [
     ".eeg",
